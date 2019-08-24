@@ -1,7 +1,7 @@
 <?php
 use Firebase\FirebaseLib;
 
-require_once "vendor/autoload.php";
+require_once "/vendor/autoload.php";
 
 const firebaseConfig = [
     "apiKey"            => "AIzaSyDPnviB-At7qVa38ouzIb49kTGx7Ije9Cs",
