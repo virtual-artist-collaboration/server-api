@@ -15,7 +15,7 @@ const FIREBASE_CONFIG = [
 ];
 
 $firebase = new FirebaseLib(FIREBASE_CONFIG["databaseURL"], FIREBASE_CONFIG["databaseSecret"]);
-$result = $firebase->get("/data");
+$result = (array)$firebase->get("/data");
 
 header("Content-type: application/json; charset=utf-8");
 echo json_encode($result);
