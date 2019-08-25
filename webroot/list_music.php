@@ -15,8 +15,15 @@ const FIREBASE_CONFIG = [
 ];
 
 $firebase = new FirebaseLib(FIREBASE_CONFIG["databaseURL"], FIREBASE_CONFIG["databaseSecret"]);
-$result = (array)$firebase->get("/data");
+$result = json_decode($firebase->get("/data"), true);
+
+// idを配列に追加
+$returns = [];
+foreach ($result as $key => $val) {
+    $val['id'] = $key;
+    $returns[] = $val;
+}
 
 header("Content-type: application/json; charset=utf-8");
-echo json_encode($result);
+echo json_encode($returns);
 ?>
