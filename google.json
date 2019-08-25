@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "vac-storage",
+  "private_key_id": "a5c9f0a02ae4cdd46a2059ca9aa9daedcd15dc71",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCIK4wD4+3bKh4G\n84ZmNx5hwXOAnab3/3lZVj9cEkH0PizFg6/c+RpY+aMNO29mmxWwCkAjSEbAR7Ye\nbfV4BgyZcVFNMJtpxD9BpC6bmHJpUGC9jeKJOlB+ZP/emYYgBtdHNnp4L/4mHR2R\nkfmHbd+JH2OacNJfULlJlDqbzofFbOIWYbZQQYiGrk4lH3NuXrxw6fGVQgsjuIVp\nUBVE9yiT2crfWb6Jy3Y2egSuucrAUPaGix6x18+Y1/KSLcEYJlOq/MwyPMFAsr81\nsrNaMWR1x2Y5EwktL8AVrDljg4/P4WYNsgqNP8XwX/rfZ8wmomGncajZbbQ/5AVS\nSpAnMgLnAgMBAAECggEALjmWMNXlr1InWlW+CKHqauX4Vy9teF+d6qFYJeG+yPJ4\nUV6ISzu24YBxBPNpuEuqO5XnOvL0rZ5KaR8LxsBK86XfoxP+lhN8I8Tf24sPP8f8\n5ywsvEfy/k07/O1h9ipMV0zbm0Qzgu28VWfX7Mz0JsDkl494Isos9BjhInYkafSz\nL2+zZQQQhEDwtEWN8bEjb3Jye5QT2odDIQniffAjWoM68Vu59iZaoc1JyUrFdxk1\n5KLPFQ2CC8/o7bL3IHexi7c3pOVMb3B5vkGDOh4pbMJHRB8VejKmkqS2d5i4+7aK\nO3N7B7BCK4Fun0UDhzSFXd8ba0NUzFJty/mTy/YYvQKBgQC9Dcn8DmFplB7e8ozv\njCJV5GB6jEryy7TrnfKoUBC0yHlO9PiCH3MUjjRnKbDb1PA9ZnOhWV+lyFYMSel2\nQyCUWpxD0cYk07f3Gg+YAeBMFQbFGc+YsgagW+SPT/z8FBCUtyqU3RQBLuwlbnix\nJkHsdvUv3PsKDbAJv+fW1uXd9QKBgQC4Y7Yi81F5n8HObSI+2dc4BopULK6Vx4gu\ne7VMO6eanfVJQtfPn+9fNdYs9Ui97K0TzTSE4OH9wyjv1O8pElVVr/TKFHjrjNxM\nOkbvyLkrQv5FiLVv7O8KKIrMGroR0MxcA34pj+/RtxVlIxr+wtByrScDYB+nPLBh\n7sJBwx1X6wKBgQCvcOZqpKW9pplnaEtl2fPbJY5q61p6KpSAuxj/HR4Dxq7cmPUt\nPCY9gyIaQlRADUHMmRDhQOFEJb/Es6qV9wF66wNs5HUuo9Nq2qJx+/u8Xx7jNmqy\nVzNTCTP30tEA1VX1zG0VrHvuBS9cJUKXkttGp7YtbrMAx2cABTkO5Gp5KQKBgAQY\nswMzxKufEP81DX23+UAVZR1ZoMdTF4Nw3CZFbQPSXpCyG3lRZFAJMijtiiAuEepO\ntMv+8wZgP5iUcnvHHH462oVizwzspDhNUyYgn3yGkH+a+ezyppzjKbI/JcMfkGq6\n6SKjQAC4wJDuprriOR9TGXrJt+pPPtvuIgK0AwLhAoGAbPfokzFdI3pNgazSgNc2\nNqvHlZ4tERKOeE75lkSwCu24TIK5TyJqYK4jGjXvuydQhp2bxeDTLAmhY6h63Eec\nJl8X8TJQcrMdzcW7/qauYF2T7n9ixQwiS5HVVq1a0IrOp8tBj2IWxV8rijwjMTsL\nz0NRR9DZrnfG+FNR/KxDexc=\n-----END PRIVATE KEY-----\n",
+  "client_email": "vac-storage@vac-storage.iam.gserviceaccount.com",
+  "client_id": "110406843045017315059",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/vac-storage%40vac-storage.iam.gserviceaccount.com"
+}
