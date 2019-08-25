@@ -19,8 +19,10 @@ $storage = new StorageClient([
 
 $bucket = $storage->bucket(GCS_BUCKETID);
 
+$file_name = basename($_FILES['file']['name'], '.aac').'_'.uniqid().'.aac';
+
 $options = [
-   'name' => basename($_FILES['file']['name'])
+   'name' => $file_name
 ];
 
 $object = $bucket->upload(
@@ -34,7 +36,7 @@ $data = array(
   "title" => $_POST["title"],
   "description" => $_POST["description"],
   "user_name" => $_POST["user_name"],
-  "url" => 'https://storage.googleapis.com/vac-storage-1/'.basename($_FILES['file']['name']),
+  "url" => 'https://storage.googleapis.com/vac-storage-1/'.$file_name,
   "tag_name" => array(),
   "download_count" => 0
 );
