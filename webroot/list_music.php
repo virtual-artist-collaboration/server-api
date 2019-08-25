@@ -1,4 +1,4 @@
-<?php
+ <?php
 use Firebase\FirebaseLib;
 
 require_once "../vendor/autoload.php";
@@ -20,7 +20,6 @@ $result = json_decode($firebase->get("/data"), true);
 // idを配列に追加
 $returns = [];
 foreach ($result as $key => $val) {
-    $val['id'] = $key;
     $returns[] = [
         "id" => $key,
         "title" => $val['title'],
@@ -33,4 +32,4 @@ foreach ($result as $key => $val) {
 
 header("Content-type: application/json; charset=utf-8");
 echo json_encode(array_reverse($returns));
-?>
+
