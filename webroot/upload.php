@@ -19,7 +19,7 @@ $storage = new StorageClient([
 
 $bucket = $storage->bucket(GCS_BUCKETID);
 
-$file_name = basename($_FILES['file']['name'], '.aac').'_'.uniqid().'.aac';
+$file_name = basename($_FILES['file']['name'], '.aac').'_'.uniqid().'.mp3';
 
 $options = [
    'name' => $file_name

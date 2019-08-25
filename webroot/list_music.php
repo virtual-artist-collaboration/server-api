@@ -21,7 +21,14 @@ $result = json_decode($firebase->get("/data"), true);
 $returns = [];
 foreach ($result as $key => $val) {
     $val['id'] = $key;
-    $returns[] = $val;
+    $returns[] = [
+        "id" => $key,
+        "title" => $val['title'],
+        "description" => $val['description'],
+        "url" => str_replace(".aac", ".mp3", $val['url']),
+        "user_name" => $val['user_name'],
+        "download_count" => $val['download_count'],
+    ];
 }
 
 header("Content-type: application/json; charset=utf-8");
