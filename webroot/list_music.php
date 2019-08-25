@@ -25,5 +25,5 @@ foreach ($result as $key => $val) {
 }
 
 header("Content-type: application/json; charset=utf-8");
-echo json_encode($returns);
+echo json_encode(array_reverse($returns));
 ?>
