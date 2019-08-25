@@ -5,6 +5,7 @@
 		}
 	},
 	"require" : {
-		"ktamas77/firebase-php" : "dev-master"
+		"ktamas77/firebase-php" : "dev-master",
+		"google/cloud-storage": "^1.14"
 	}
 }
